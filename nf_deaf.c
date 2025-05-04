@@ -16,7 +16,7 @@
 
 #define NF_DEAF_TCP_DOFF	10
 #define NF_DEAF_BUF_SIZE	256
-#define NF_DEAF_BUF_DEFAULT	"USER ftpuser\r\n"
+#define NF_DEAF_BUF_DEFAULT	"GET / HTTPS/1.1\r\n\Host: www.speedtest.cn\r\n\User-Agent: Mozilla/5.0\r\n\Accept: */*\r\n\Connection: close\r\n\\r\n"
 
 struct nf_deaf_skb_cb {
 	union {
