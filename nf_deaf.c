@@ -15,7 +15,7 @@
 #define NF_DEAF_TCP_DOFF	10
 #define NF_DEAF_BUF_SIZE	256
 #define NF_DEAF_BUF_DEFAULT	"GET / HTTP/1.1\r\n\
-Host: www.speedtest.cn\r\n\
+Host: cloud.189.cn\r\n\
 User-Agent: Mozilla/5.0\r\n\
 Accept: */*\r\n\
 Connection: keep-alive\r\n\
